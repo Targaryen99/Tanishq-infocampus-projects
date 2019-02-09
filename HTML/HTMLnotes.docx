@@ -1,0 +1,136 @@
+www.w3schools.com
+
+HTML 
+HYPER TEXT MARKUP LANGUAGE 
+<html>	- 	tag /element	 (instruction from html to browser) 
+*ELEMENTS/TAGS – 1.PAIRED TAGS (HTML, BODY)
+            		     2. UNPAIRED TAGS (HR,BR,IMG)
+
+<HR>- its an unpaired tag = used to draw a horizontal roll (horizontal line ) 
+<br>- break line
+<Img>- image can be inserted 
+Ass#LIST OUT ALL PAIRED AND UNPAIRED TAGS 
+*Elements and tags – BLOCK  LINES(every block level elements will be declared in a new line , if there are five block level elements they will be displayed in five lines, ex-p,div,heading) 
+-	INLINE	(every inline elements will be displayed in the same line ,it will only change the line if there’s no space left ).
+Ass#LIST ALL BLOCK LEVEL AND INLINE DOCUMENTS
+*Elements/tags- SEMANTIC(meaning){html,body,p,b,I,u,n}
+		NON-SEMANTIC(no specific meaning ){div,span}
+Ass#LIST ALL NON-SEMANTIC ELEMENTS
+ATTRIBUTES-adds  additional information to our elements
+<hr colour=”red”>
+title
+Hr=element
+Colour=attribute name
+Red= attribute value
+ATTRIBUTES
+*it adds additional information to an element.
+* attributes are element specific
+* 	
+NON SEMANTIC ELEMENTS
+1.	<div> 
+2.	<span>
+
+
+
+•	ul> stands for unordered list
+•	</ul> stands for end unordered list
+•	<li> stands for list item
+•	</li> stands for end list item
+•	<ol> stands for ordered list
+•	</ol> stands for end ordered list
+•	<li> stands for list item
+•	</li> stands for end list item
+LIST OF BLOCK ELEMENTS
+•	p
+•	h1, h2, h3, h4, h5, h6
+•	ol, ul
+•	pre
+•	address
+•	blockquote
+•	dl
+•	div
+•	fieldset
+•	form
+•	hr
+•	noscript
+•	table
+
+List of inline elements
+•	b, big, i, small, tt
+•	abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var
+•	a, bdo, br, img, map, object, q, script, span, sub, sup
+•	button, input, label, select, textarea
+
+two types :
+<doctype>
+<pre>- preserve formatting (to print coustemize formatting)
+<Bdo>- bi directional override <rtl>[BY DEFAULT ITS LEFT TO RIGHT]
+In HTML we have 6 headings [h1-h6]{font size will decrease by default with respective heading tags }
+HR
+1.color
+2.size
+3.width
+4.align
+5.noshade[grey goose ;)]
+<q>tag- for printing double quote in a line 
+<sub>- subscript
+<sup>-superscript
+
+TO DIPSLAY AN  IMAGE 
+<img>
+1.source
+2.width 
+3.height 
+4.align
+5.alt
+6.title(I found this on my own )
+[ **note: {  ./-current folder
+                 ../ -parent folder     }
+]
+IMAGE PATH –1. absolute path()
+2.relative path 
+
+HOW TO DISPLAY LIST ITEMS 
+Ol-ordered list
+UL-unordered list
+li-list items
+1.	ordered list(<ol>,<li>)[attributes:abc,123(d),ii,start  ] 
+2.	unordered list (<ul>,<li>)
+3.	definition list (dl)
+
+MARQUEE- TO MOVE TEXT IN A FORMATION (EX: BREAKING NEWS IN tv)
+ATTRIBUTES: bgcolor , loop , behaviour , scrollAmount , direction
+#TABLE-
+Caption
+Tr th td
+ 
+//STYLE=”color:red;font-size=44px”
+Attributes- border , 
+Align width bgcolor cellspacing cellpading 
+Rowspam
+Colspan
+
+PARAGHRAP = TABLE>(TR>TD{TD-$}*3)*4
+<!--  comment-- ?
+ANCHOR TAG:to print hyperlink <<video<<pictures<<links
+Href=mailto:abc@gmail.com>sendEMAIL
+Href=mailto:abc@gmail.com?subject=leave plan &body=hi 
+HTML CODES
+-	&nbsp(nonbreking space )
+-	&pi(pi symbol )
+FORM
+-	<form
+-	Input
+-	Textarea
+-	select
+-	Option
+-	Checkbox
+-	Name(to connect with server)
+-	Submit
+-	Label
+-	hidden
+ -      value
+	method
+ 	action>
+
+
